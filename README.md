@@ -1,7 +1,6 @@
 # Dockerfile_collection
 This repository contains Dockerfile for stellarator-tools, ...
 ### Stellarator-tools
-#### Setup
 #### Docker setup
 **Please make sure docker is installed.** \
 Get the container from the image. You can delete `--rm` from the command if you want to reserve the current container.
