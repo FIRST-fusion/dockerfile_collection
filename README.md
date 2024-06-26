@@ -2,13 +2,6 @@
 This repository contains Dockerfile for stellarator-tools, ...
 ### Stellarator-tools
 #### Setup
-First clone the repository from stellarator-tools.
-```bash
-git clone https://github.com/ORNL-Fusion/Stellarator-Tools.git
-```
-```bash
-cd Stellarator-Tools
-```
 #### Docker setup
 **Please make sure docker is installed.** \
 Get the container from the image. You can delete `--rm` from the command if you want to reserve the current container.
