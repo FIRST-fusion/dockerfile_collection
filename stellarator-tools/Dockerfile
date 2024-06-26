@@ -27,7 +27,7 @@ RUN mkdir -p build && cd build && \
           -DLAPACK_LIBRARIES=/usr/lib/x86_64-linux-gnu/liblapack.so \
           -DNetCDF_C_LIBRARY=/usr/lib/x86_64-linux-gnu/libnetcdf.so \
           -DNetCDF_Fortran_LIBRARY=/usr/lib/x86_64-linux-gnu/libnetcdff.so \
-          -DSCALAPACK_LIBRARY=/usr/lib/x86_64-linux-gnu/libscalapack.so .. && \
+          -DSCALAPACK_LIBRARY=/usr/lib/x86_64-linux-gnu/libscalapack-openmpi.so .. && \
     make
 
 CMD ["bash"]
