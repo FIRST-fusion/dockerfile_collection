@@ -29,6 +29,6 @@ WORKDIR /workspace
 
 COPY . /workspace
 
-RUN /bin/bash -c "source /opt/intel/oneapi/setvars.sh > /dev/null && make all"
+RUN /bin/bash -c "source /opt/intel/oneapi/setvars.sh"
 
 CMD ["bash"]
