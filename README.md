@@ -3,13 +3,6 @@ This repository contains Dockerfile for stellarator-tools, Terpsichore, CHEASE, 
 
 ## All four section setup
 Clone the four repositories mentioned above into your working directory and copy the `Dockerfile` from the outermost layer of this repository to your working directory. If you have created this image, please ignore the docker setup steps in Stellarator-Tools, TERPSICHORE, CHEASE, DCON below.
-```bash
-docker build -t {your_image_name}
-```
-Create the container:
-```bash
-docker run -it --rm {your_image_name}
-```
 
 ### Stellarator-tools
 #### Setup
