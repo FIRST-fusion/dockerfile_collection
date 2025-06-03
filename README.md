@@ -10,11 +10,33 @@ First clone the repository from stellarator-tools.
 ```bash
 git clone https://github.com/ORNL-Fusion/Stellarator-Tools.git
 ```
-Paste the `Dockerfile` under Stellarator-Tools directory in this repository then enter it.
 
 ```bash
 cd Stellarator-Tools
 ```
+
+Paste the `Dockerfile` under Stellarator-Tools directory in this repository then enter it.
+
+```bash
+├── CMakeLists.txt
+├── Dockerfile
+├── Documentation
+│   ├── architecture.dox
+│   ├── build_system.dox
+│   ├── class anatomy.dox
+│   ├── doxygen.dox
+│   ├── main page.dox
+│   └── testing.dox
+├── images
+│   ├── cmake1.png
+│   ├── cmake2.png
+│   ├── cmake3.png
+│   └── flux_surfaces.png
+├── LICENSE
+├── README.md
+└── setup_cmake
+```
+
 #### Docker setup
 **Please make sure docker is installed.** \
 Get the container from the image. You can delete `--rm` from the command if you want to reserve the current container.
