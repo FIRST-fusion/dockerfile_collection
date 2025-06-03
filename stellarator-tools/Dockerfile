@@ -14,6 +14,8 @@ RUN apt-get update && \
     libnetcdff-dev \
     libnetcdf-dev \
     libscalapack-mpi-dev \
+    libopenmpi-dev \        
+    openmpi-bin \           
     git && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
